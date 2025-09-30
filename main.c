@@ -111,6 +111,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrev, LPSTR lpCmd, int nShowC
         }
 
         num = num / 2;
+        if (num < 1) num = 1;
         if (id == IDYES) {
             guess -= num;
         }
